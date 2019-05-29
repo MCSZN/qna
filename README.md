@@ -21,4 +21,4 @@ You can train the model launching the runQnA.py file with the arguments you wish
 Further work would be to optimize the number of LSTM and Dense layers. We could also check which BERT version is most appropriate for this particular task given that the language is majoritarily english. Once these improvements are done we could also optimize the actual architecture trying out if CNN might be useful for the meta-data.
 A final improvement would be to use regularizers as well as normalizers to even further accelerate learning with learning rate decay to avoid overfitting and even residual networks to allows us creating deeper networks. 
 
-To use this repo you can directly download it, launch the "setup.py" file with your python interpreted and eventually use the "runQnA.py" file to directly train it with the parameters you like!
+To use this repo you can directly download it, launch the "setup.py" file with your python interpreter and eventually use the "runQnA.py" file to directly train it with the parameters you like!
